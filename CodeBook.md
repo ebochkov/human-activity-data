@@ -10,19 +10,19 @@ Then it creates independent tidy data set with the average of each variable for 
  
 All the variables, available in the R environment after the script execution are described below:
 
-dataset.dir - original dataset directory;
-activity.labels - dataframe with activity labels;
-features - dataframe with features;  
-train.x - training measuarments dataframe; 
-train.y - training activity dataframe;
-train.subject - training subjects fataframe;
-test.x - test measuarments dataframe; 
-test.y - test activity dataframe;
-test.subject - test subjects dataframe;
-x - merged measurment dataframe;
-y - merged activity dataframe;
-subject <- merged subject dataframe;
-x.with.descriprive.names - dataframe with descriptive column names, activity values and subjects;
-required.columns.indexes - indexes of the columns required in step 2 of the task;
-x.with.required.columns - dataframe with the columns required in step 2 of the task;
-agregated.data - dataframe with the data required in the step 5 of the task;
+* dataset.dir - original dataset directory;
+* activity.labels - dataframe with activity labels;
+* features - dataframe with features;  
+* train.x - training measuarments dataframe; 
+* train.y - training activity dataframe;
+* train.subject - training subjects fataframe;
+* test.x - test measuarments dataframe; 
+* test.y - test activity dataframe;
+* test.subject - test subjects dataframe;
+* x - merged measurment dataframe;
+* y - merged activity dataframe;
+* subject <- merged subject dataframe;
+* x.with.descriprive.names - dataframe with descriptive column names, activity values and subjects;
+* required.columns.indexes - indexes of the columns required in step 2 of the task;
+* x.with.required.columns - dataframe with the columns required in step 2 of the task;
+* agregated.data - dataframe with the data required in the step 5 of the task;
